@@ -6,7 +6,9 @@ import java.util.List;
 import main.com.foo.item.Sellable;
 
 /**
- * Generic Shopping Basket where items can be added
+ * Generic Shopping Basket to add <Sellable> items.
+ * Basket support features like addition of one or bulk items , describing the details of the items and 
+ * calculating the final cost of the basket
  * 
  * @author tusharpawar
  *

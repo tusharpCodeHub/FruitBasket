@@ -2,9 +2,9 @@ package main.com.foo;
 
 import java.util.Arrays;
 
-import main.com.foo.item.Sellable;
-import main.com.foo.item.Fruit;
 import main.com.foo.basket.Basket;
+import main.com.foo.item.Fruit;
+import main.com.foo.item.Sellable;
 
 /**
  * Main Class to create a basket and output the cost
@@ -27,7 +27,8 @@ public class FruitBasket {
 		// describe the contents of basket
 		basket.describe();
 		// get the total cost of the items in the basket
-		System.out.println("Cost of the Basket is  " + basket.getCost() + ".");
+		System.out.println("Total Cost of the Basket is  " + basket.getCost() +".");
+		
 
 	}
 }

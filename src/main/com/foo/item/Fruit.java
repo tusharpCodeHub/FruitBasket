@@ -3,8 +3,8 @@ package main.com.foo.item;
 import main.com.foo.item.Sellable;
 
 /**
- * Generic implementation for a Fruit type This class can used to create Fruit
- * objects with the required base price
+ * Generic implementation for an Fruit <Sellable> item.
+ * This class can used to create Fruit objects with the required base price
  * 
  * @author tushar pawar
  *
