@@ -24,12 +24,22 @@ public class Fruit implements Sellable {
 		this.price = costPerItem;
 		this.name = name;
 	}
-    //  here cost of Fruits can be calculated in desired way , if some some fruits need cost in weight etc than the constructor can be overloaded
+   
+	
+	/**
+	 * @see main.com.foo.item.Sellable#price()
+	 * cost of Fruits can be calculated in desired way , if some some fruits need cost in weight etc 
+	 * than the constructor can be overloaded
+	 */
 	@Override
 	public double price() {
 		return price;
 	}
 
+	/**
+	 * @see main.com.foo.item.Sellable#describe()
+	 * Fruits as descried with name and associated price
+	 */
 	@Override
 	public void describe() {
 		System.out.println("Fruit  " + name + "   with price of " + price + ".");
